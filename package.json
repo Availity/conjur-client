@@ -1,0 +1,23 @@
+{
+  "name": "@availity/conjur-client",
+  "type": "module",
+  "author": "Adam Tillis <Adam.Tillis@availity.com>",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "A Node.js implementation of a client for CyberArk Conjur",
+  "scripts": {
+    "prebuild": "tsc --build --clean",
+    "build": "tsc --project tsconfig.json",
+    "test": "node --test ./dist/**/*.test.js"
+  },
+  "keywords": [
+    "conjur",
+    "cyberark",
+    "node",
+    "client"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "typescript": "^5.8.3"
+  }
+}
