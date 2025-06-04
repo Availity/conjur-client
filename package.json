@@ -1,6 +1,5 @@
 {
   "name": "@availity/conjur-client",
-  "type": "module",
   "author": "Adam Tillis <Adam.Tillis@availity.com>",
   "license": "MIT",
   "version": "1.0.0",
